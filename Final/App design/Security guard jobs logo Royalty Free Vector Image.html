@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html class="webp js" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://cdn.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn.vectorstock.com/">
+	<meta name="theme-color" content="#101122">
+	<script type="text/javascript" src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/02e09611df"></script><script src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/nr-1215.js"></script><script type="text/javascript" async="" src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/conversion_async.js" nonce="r6+KC6EirOPdFvcIP7JAoMuCuiKnJi50tUqWAuV/bvY="></script><script type="text/javascript" async="" src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/analytics.js" nonce="r6+KC6EirOPdFvcIP7JAoMuCuiKnJi50tUqWAuV/bvY="></script><script type="text/javascript" async="" src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/js_003" nonce="r6+KC6EirOPdFvcIP7JAoMuCuiKnJi50tUqWAuV/bvY="></script><script type="text/javascript" async="" src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/js" nonce="r6+KC6EirOPdFvcIP7JAoMuCuiKnJi50tUqWAuV/bvY="></script><script type="text/javascript" nonce="r6+KC6EirOPdFvcIP7JAoMuCuiKnJi50tUqWAuV/bvY=">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf6267bec66f8c7">
+	<meta name="csrf-value" content="f261055b698ad0bf4f1cb735c2ee4b2a">
+	
+	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<meta name="live-settings" content="[]">
+	<meta name="twitter:site" content="@VectorStock">
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="fb:app_id" content="241100862642313">
+
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+	<link rel="search" type="application/opensearchdescription+xml" title="VectorStock Search" href="https://www.vectorstock.com/xml/searchbox.xml">
+
+	<title>Security guard jobs logo Royalty Free Vector Image</title>
+	<meta name="description" content="security guard jobs logo vector for your company or brand. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions..">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/security-guard-jobs-logo-vector-25171011">
+	<meta property="og:title" content="Security guard jobs logo vector image on VectorStock">
+	<meta property="og:description" content="security guard jobs logo vector for your company or brand. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+	<meta property="og:image" content="https://cdn2.vectorstock.com/i/1000x1000/10/11/security-guard-jobs-logo-vector-25171011.jpg">
+	<meta property="og:image:url" content="https://cdn2.vectorstock.com/i/1000x1000/10/11/security-guard-jobs-logo-vector-25171011.jpg">
+	<meta property="og:image:secure_url" content="https://cdn2.vectorstock.com/i/1000x1000/10/11/security-guard-jobs-logo-vector-25171011.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/security-guard-jobs-logo-vector-25171011">
+	<meta name="twitter:title" content="Security guard jobs logo vector image">
+	<meta name="twitter:description" content="security guard jobs logo vector for your company or brand">
+	<meta name="twitter:image" content="https://cdn2.vectorstock.com/i/thumb-large/10/11/security-guard-jobs-logo-vector-25171011.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/security-guard-jobs-logo-vector-25171011">
+
+	<link rel="stylesheet" type="text/css" href="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/common1650408712.css">
+	<link rel="stylesheet" type="text/css" href="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/common-payment-paddle1650408712.css">
+	<link rel="stylesheet" type="text/css" href="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/vector1650408712.css">
+	<script async="" src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/js_002"></script>
+	<script src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/common1650427425.js"></script>
+	<script src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/common-payment-paddle1650427425.js"></script>
+	<script src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/vector1650427425.js"></script>
+	<link rel="preload" href="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/security-guard-jobs-logo-vector-25171011.webp" as="image">
+<script src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/a" nonce="r6+KC6EirOPdFvcIP7JAoMuCuiKnJi50tUqWAuV/bvY="></script></head>
+<body data-new-gr-c-s-check-loaded="8.897.0" data-gr-ext-installed="">
+
+<!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" placeholder="Search…" maxlength="50" autofocus="">
+								<button type="button" data-action="clear">×</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					<div class="suggestions"><div></div></div></fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+				<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+				<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+			</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="https://www.vectorstock.com/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+		<nav id="searchrelated"></nav>	
+
+
+	<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+						<ul>
+							<li><a href="https://www.vectorstock.com/signup">Sign Up</a></li>
+							<li data-action="login"><a href="https://www.vectorstock.com/?login=1">Login…</a></li>
+							<li><a href="https://www.vectorstock.com/pricing">Pricing</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form method="get" action="/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="https://www.vectorstock.com/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Log In</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We're the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you're a global ad&nbsp;agency or a freelance graphic 
+designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="https://www.vectorstock.com/signup">Sign up now, it’s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="/auth/login" method="post">
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2" maxlength="72">
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Log In</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="https://www.vectorstock.com/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="https://www.vectorstock.com/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+				
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset" style="min-height: 675px; max-width: 627px;">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1">
+					</li>
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors/security-vectors">
+							<span itemprop="name">Security Vectors</span>
+						</a>
+						<meta itemprop="position" content="2">
+					</li>
+				</ol>
+
+				<h1>Security guard jobs logo vector&nbsp;image</h1>
+
+				<figure style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn2.vectorstock.com/i/1000x1000/10/11/security-guard-jobs-logo-vector-25171011.jpg">
+						<picture>
+							<source type="image/webp" srcset="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/security-guard-jobs-logo-vector-25171011.webp 1x">
+							<source type="image/jpeg" srcset="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/security-guard-jobs-logo-vector-25171011.jpg 1x">
+							<img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/security-guard-jobs-logo-vector-25171011.jpg" importance="high" title="Security guard jobs logo vector image" alt="Security guard jobs logo">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="25171011">
+					<input type="hidden" id="vector_title" value="Security guard jobs logo">
+					<input type="hidden" id="vector_description" value="security guard jobs logo vector for your company or brand. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/security-guard-jobs-logo-vector-25171011">
+					<input type="hidden" id="vector_media" value="https://cdn2.vectorstock.com/i/1000x1000/10/11/security-guard-jobs-logo-vector-25171011.jpg">
+					<input type="hidden" id="vector_ratio" value="1">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="andypp">
+					<input type="hidden" id="account_user" value="0">
+
+					<input type="hidden" id="vector_transparent_png" value="0">
+					<input type="hidden" id="vector_download_urls" value="[]">
+					<input type="hidden" id="vector_license_options" value="[{&quot;type&quot;:&quot;standard&quot;,&quot;cost&quot;:{&quot;single-image&quot;:14.99,&quot;credits&quot;:1,&quot;subscription&quot;:1}},{&quot;type&quot;:&quot;expanded&quot;,&quot;cost&quot;:{&quot;single-image&quot;:39.99,&quot;credits&quot;:30}}]">
+					<input type="hidden" id="account_filetype" value="zip">
+					<input type="hidden" id="account_customizations" value="[]">
+					<input type="hidden" id="account_cloud" value="[{&quot;type&quot;:&quot;googledrive&quot;,&quot;status&quot;:&quot;connect&quot;}]">
+					
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="https://www.vectorstock.com/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset class="checked">
+									<label for="f_license_standard">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">For Print, Advertising, Design</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">For Print on Demand &amp; Resale</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Graphic Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Web Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Social Media</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Multi-user</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Resale Items</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Print on Demand</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+								<fieldset class="checked">
+									<label for="f_payment_standard_single-image">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image" checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>$</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69¢</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+								<fieldset class="checked">
+									<label for="f_payment_expanded_single-image">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="39.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>39.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>39.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">New Option!</span><a href="https://www.vectorstock.com/faq/members/what-is-hire-a-designer">What is this?</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="85" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="descr">Only available with Pay-per-Image</span>
+										<span class="value"><small>$</small><var>85.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We’ll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="square" style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn2.vectorstock.com/i/1000x1000/10/11/security-guard-jobs-logo-vector-25171011.jpg">
+						<picture>
+							<source type="image/webp" srcset="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/security-guard-jobs-logo-vector-25171011.webp 1x">
+							<source type="image/jpeg" srcset="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/security-guard-jobs-logo-vector-25171011.jpg 1x">
+							<img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/security-guard-jobs-logo-vector-25171011.jpg" importance="high" title="Security guard jobs logo vector image" alt="Security guard jobs logo">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<ul>
+								<li><button type="button" data-action="pinterest"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"></path></svg></span><span class="label">Save to Pinterest</span></button></li>
+								<li><button type="button" data-action="facebook"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"></path></svg></span><span class="label">Post to Facebook</span></button></li>
+								<li><button type="button" data-action="twitter"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"></path></svg></span><span class="label">Post to Twitter</span></button></li>
+							</ul>
+							<ul>
+								<li><button type="button" data-action="email"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M24.37,2.25c-0.07,0-0.15,0.01-0.22,0.04l-2.75,1L0.24,12.14c-0.3,0.13-0.33,0.54-0.05,0.71l3.94,2.39l0.99,0.6l1.94,5.58c0.05,0.14,0.25,0.1,0.25-0.04l0.03-4.19v-0.05l8.87-7.49c0.15-0.13,0.37-0.12,0.52,0.01l0,0c0.17,0.15,0.17,0.42,0.01,0.58L8.85,18v0.18l7.53,4.52c0.21,0.13,0.48,0.04,0.57-0.19l7.89-19.11l0.11-0.28C25.13,2.68,24.8,2.25,24.37,2.25z"></path></svg></span><span class="label">Send by Email</span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>25171011</dd></dl>
+							</li>
+							<li class="meta-color-mode">
+								<dl><dt>Color Mode</dt><dd>RGB</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd>
+										<a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_andypp" rel="nofollow">andypp</a>
+										<button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="0"><span class="icon">♥</span><span class="label">Like</span><span class="tally"></span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/ImageObject" itemscope="">
+					<meta itemprop="contentUrl" content="https://cdn2.vectorstock.com/i/1000x1000/10/11/security-guard-jobs-logo-vector-25171011.jpg">
+					<meta itemprop="thumbnailUrl" content="https://cdn2.vectorstock.com/i/thumb-large/10/11/security-guard-jobs-logo-vector-25171011.jpg">
+					<meta itemprop="name" content="Security guard jobs logo">
+					<meta itemprop="description" content="Security guard jobs logo vector for your company or brand. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions. vector image">
+					<meta itemprop="author" content="andypp">
+					<meta itemprop="datePublished" content="2019-05-06">
+					<meta itemprop="license" content="https://www.vectorstock.com/faq/members/standard-license">
+					<meta itemprop="acquireLicensePage" content="https://www.vectorstock.com/royalty-free-vector/security-guard-jobs-logo-vector-25171011">
+					<meta itemprop="sourceOrganization" content="VectorStock.com">
+				</div>
+			</div>
+			
+		</section>
+
+
+		<section id="vs-related">
+						<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/65/70/police-officer-icon-line-portrait-of-policeman-vector-40896570.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/police-officer-icon-line-portrait-of-policeman-vector-40896570" title="police officer icon line portrait of policeman vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/65/70/police-officer-icon-line-portrait-of-policeman-vector-40896570.jpg" title="police officer icon line portrait of policeman" alt="police officer icon line portrait of policeman vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/police-officer-icon-line-portrait-of-policeman-vector-408965.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/63/99/policeman-line-concept-police-officer-icon-vector-22606399.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/policeman-line-concept-police-officer-icon-vector-22606399" title="policeman line concept police officer icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/63/99/policeman-line-concept-police-officer-icon-vector-22606399.jpg" title="policeman line concept police officer icon" alt="policeman line concept police officer icon vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/policeman-line-concept-police-officer-icon-vector-22606399.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/03/94/public-navigation-line-icon-police-vector-21630394.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/public-navigation-line-icon-police-vector-21630394" title="public navigation line icon police vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/03/94/public-navigation-line-icon-police-vector-21630394.jpg" title="public navigation line icon police" alt="public navigation line icon police vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/public-navigation-line-icon-police-vector-21630394.jpg"></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/06/63/vintage-monochrome-police-officer-skull-vector-22460663.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/vintage-monochrome-police-officer-skull-vector-22460663" title="vintage monochrome police officer skull vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/06/63/vintage-monochrome-police-officer-skull-vector-22460663.jpg" title="vintage monochrome police officer skull" alt="vintage monochrome police officer skull vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/vintage-monochrome-police-officer-skull-vector-22460663.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/74/84/road-policeman-moto-police-icon-cartoon-vector-38187484.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/road-policeman-moto-police-icon-cartoon-vector-38187484" title="road policeman moto police icon cartoon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/74/84/road-policeman-moto-police-icon-cartoon-vector-38187484.jpg" title="road policeman moto police icon cartoon" alt="road policeman moto police icon cartoon vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/road-policeman-moto-police-icon-cartoon-vector-38187484.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/16/19/monochrome-simple-police-officer-icon-flat-vector-38381619.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/monochrome-simple-police-officer-icon-flat-vector-38381619" title="monochrome simple police officer icon flat vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/16/19/monochrome-simple-police-officer-icon-flat-vector-38381619.jpg" title="monochrome simple police officer icon flat" alt="monochrome simple police officer icon flat vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/monochrome-simple-police-officer-icon-flat-vector-38381619.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/48/29/policeman-icon-vector-40494829.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/policeman-icon-vector-40494829" title="policeman icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/48/29/policeman-icon-vector-40494829.jpg" title="policeman icon" alt="policeman icon vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/policeman-icon-vector-40494829.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/78/19/swat-team-police-department-emblem-vector-40167819.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/swat-team-police-department-emblem-vector-40167819" title="swat team police department emblem vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/78/19/swat-team-police-department-emblem-vector-40167819.jpg" title="swat team police department emblem" alt="swat team police department emblem vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/swat-team-police-department-emblem-vector-40167819.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/32/74/police-officer-rgb-color-icon-vector-32173274.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/police-officer-rgb-color-icon-vector-32173274" title="police officer rgb color icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/32/74/police-officer-rgb-color-icon-vector-32173274.jpg" title="police officer rgb color icon" alt="police officer rgb color icon vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/police-officer-rgb-color-icon-vector-32173274.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/96/39/policeman-icon-vector-10889639.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/policeman-icon-vector-10889639" title="policeman icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/96/39/policeman-icon-vector-10889639.jpg" title="policeman icon" alt="policeman icon vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/policeman-icon-vector-10889639.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/21/30/modern-golf-for-police-logo-vector-29582130.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/modern-golf-for-police-logo-vector-29582130" title="modern golf for police logo vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/21/30/modern-golf-for-police-logo-vector-29582130.jpg" title="modern golf for police logo" alt="modern golf for police logo vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/modern-golf-for-police-logo-vector-29582130.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/54/91/police-mascot-sport-logo-design-vector-32395491.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/police-mascot-sport-logo-design-vector-32395491" title="police mascot sport logo design vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/54/91/police-mascot-sport-logo-design-vector-32395491.jpg" title="police mascot sport logo design" alt="police mascot sport logo design vector image"></noscript><img src="Security%20guard%20jobs%20logo%20Royalty%20Free%20Vector%20Image_files/police-mascot-sport-logo-design-vector-32395491.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/09/07/policeman-icon-male-cop-guard-security-vector-16200907.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/policeman-icon-male-cop-guard-security-vector-16200907" title="policeman icon male cop guard security vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/09/07/policeman-icon-male-cop-guard-security-vector-16200907.jpg" title="policeman icon male cop guard security" alt="policeman icon male cop guard security vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/19/00/logo-aussie-cop-mascot-cartoon-style-vector-39141900.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/logo-aussie-cop-mascot-cartoon-style-vector-39141900" title="logo aussie cop mascot cartoon style vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/19/00/logo-aussie-cop-mascot-cartoon-style-vector-39141900.jpg" title="logo aussie cop mascot cartoon style" alt="logo aussie cop mascot cartoon style vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/64/91/policeman-hits-with-a-baton-vector-31256491.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/policeman-hits-with-a-baton-vector-31256491" title="policeman hits with a baton vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/64/91/policeman-hits-with-a-baton-vector-31256491.jpg" title="policeman hits with a baton" alt="policeman hits with a baton vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/20/93/military-soldier-avatars-set-on-white-background-vector-24372093.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/military-soldier-avatars-set-on-white-background-vector-24372093" title="military soldier avatars set on white background vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/20/93/military-soldier-avatars-set-on-white-background-vector-24372093.jpg" title="military soldier avatars set on white background" alt="military soldier avatars set on white background vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/57/21/security-guard-icon-vector-6525721.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/security-guard-icon-vector-6525721" title="security guard icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/57/21/security-guard-icon-vector-6525721.jpg" title="security guard icon" alt="security guard icon vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/16/40/customs-inspector-or-officer-icon-vector-15201640.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/customs-inspector-or-officer-icon-vector-15201640" title="customs inspector or officer icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/16/40/customs-inspector-or-officer-icon-vector-15201640.jpg" title="customs inspector or officer icon" alt="customs inspector or officer icon vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/97/62/soldier-face-icon-vector-9339762.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/soldier-face-icon-vector-9339762" title="soldier face icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/97/62/soldier-face-icon-vector-9339762.jpg" title="soldier face icon" alt="soldier face icon vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/40/06/superhero-symbol-at-bright-background-vector-24144006.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/superhero-symbol-at-bright-background-vector-24144006" title="superhero symbol at bright background vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/40/06/superhero-symbol-at-bright-background-vector-24144006.jpg" title="superhero symbol at bright background" alt="superhero symbol at bright background vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="38329231" data-title="shield and man logo combination human security" data-src="https://cdn2.vectorstock.com/i/thumbs/92/31/shield-and-man-logo-combination-human-security-vector-38329231.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/shield-and-man-logo-combination-human-security-vector-38329231" title="shield and man logo combination human security vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/92/31/shield-and-man-logo-combination-human-security-vector-38329231.jpg" title="shield and man logo combination human security" alt="shield and man logo combination human security vector image"></noscript></a></li>
+						<li data-id="40891477" data-title="warrior helmet logo icon" data-src="https://cdn3.vectorstock.com/i/thumbs/14/77/warrior-helmet-logo-icon-vector-40891477.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/warrior-helmet-logo-icon-vector-40891477" title="warrior helmet logo icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/14/77/warrior-helmet-logo-icon-vector-40891477.jpg" title="warrior helmet logo icon" alt="warrior helmet logo icon vector image"></noscript></a></li>
+						<li data-id="21493386" data-title="set basketball players in sports uniform" data-src="https://cdn2.vectorstock.com/i/thumbs/33/86/set-basketball-players-in-sports-uniform-vector-21493386.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-basketball-players-in-sports-uniform-vector-21493386" title="set basketball players in sports uniform vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/33/86/set-basketball-players-in-sports-uniform-vector-21493386.jpg" title="set basketball players in sports uniform" alt="set basketball players in sports uniform vector image"></noscript></a></li>
+						<li data-id="41773513" data-title="knight holding a big sword" data-src="https://cdn4.vectorstock.com/i/thumbs/35/13/knight-holding-a-big-sword-vector-41773513.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/knight-holding-a-big-sword-vector-41773513" title="knight holding a big sword vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/35/13/knight-holding-a-big-sword-vector-41773513.jpg" title="knight holding a big sword" alt="knight holding a big sword vector image"></noscript></a></li>
+						<li data-id="39755516" data-title="fingerprint" data-src="https://cdn2.vectorstock.com/i/thumbs/55/16/fingerprint-vector-39755516.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/fingerprint-vector-39755516" title="fingerprint vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/55/16/fingerprint-vector-39755516.jpg" title="fingerprint" alt="fingerprint vector image"></noscript></a></li>
+						<li data-id="41408850" data-title="medieval knight heraldic icon for warriors joust" data-src="https://cdn1.vectorstock.com/i/thumbs/88/50/medieval-knight-heraldic-icon-for-warriors-joust-vector-41408850.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/medieval-knight-heraldic-icon-for-warriors-joust-vector-41408850" title="medieval knight heraldic icon for warriors joust vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/88/50/medieval-knight-heraldic-icon-for-warriors-joust-vector-41408850.jpg" title="medieval knight heraldic icon for warriors joust" alt="medieval knight heraldic icon for warriors joust vector image"></noscript></a></li>
+						<li data-id="40530137" data-title="warrior with the mask is ready esport mascot" data-src="https://cdn3.vectorstock.com/i/thumbs/01/37/warrior-with-the-mask-is-ready-esport-mascot-vector-40530137.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/warrior-with-the-mask-is-ready-esport-mascot-vector-40530137" title="warrior with the mask is ready esport mascot vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/01/37/warrior-with-the-mask-is-ready-esport-mascot-vector-40530137.jpg" title="warrior with the mask is ready esport mascot" alt="warrior with the mask is ready esport mascot vector image"></noscript></a></li>
+						<li data-id="38598755" data-title="spartan helmet icon" data-src="https://cdn1.vectorstock.com/i/thumbs/87/55/spartan-helmet-icon-vector-38598755.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/spartan-helmet-icon-vector-38598755" title="spartan helmet icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/87/55/spartan-helmet-icon-vector-38598755.jpg" title="spartan helmet icon" alt="spartan helmet icon vector image"></noscript></a></li>
+						<li data-id="41781362" data-title="police badge department emblems isolated" data-src="https://cdn3.vectorstock.com/i/thumbs/13/62/police-badge-department-emblems-isolated-vector-41781362.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/police-badge-department-emblems-isolated-vector-41781362" title="police badge department emblems isolated vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/13/62/police-badge-department-emblems-isolated-vector-41781362.jpg" title="police badge department emblems isolated" alt="police badge department emblems isolated vector image"></noscript></a></li>
+						<li data-id="41535118" data-title="police skull hand drawing" data-src="https://cdn4.vectorstock.com/i/thumbs/51/18/police-skull-hand-drawing-vector-41535118.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/police-skull-hand-drawing-vector-41535118" title="police skull hand drawing vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/51/18/police-skull-hand-drawing-vector-41535118.jpg" title="police skull hand drawing" alt="police skull hand drawing vector image"></noscript></a></li>
+						<li data-id="24557676" data-title="superhero logo template" data-src="https://cdn2.vectorstock.com/i/thumbs/76/76/superhero-logo-template-vector-24557676.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/superhero-logo-template-vector-24557676" title="superhero logo template vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/76/76/superhero-logo-template-vector-24557676.jpg" title="superhero logo template" alt="superhero logo template vector image"></noscript></a></li>
+						<li data-id="23216295" data-title="soldier military and agent with weapon pose silhou" data-src="https://cdn1.vectorstock.com/i/thumbs/62/95/soldier-military-and-agent-with-weapon-pose-silhou-vector-23216295.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/soldier-military-and-agent-with-weapon-pose-silhou-vector-23216295" title="soldier military and agent with weapon pose silhou vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/62/95/soldier-military-and-agent-with-weapon-pose-silhou-vector-23216295.jpg" title="soldier military and agent with weapon pose silhou" alt="soldier military and agent with weapon pose silhou vector image"></noscript></a></li>
+						<li data-id="25325401" data-title="special agent and soldier detail silhouette" data-src="https://cdn2.vectorstock.com/i/thumbs/54/01/special-agent-and-soldier-detail-silhouette-vector-25325401.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/special-agent-and-soldier-detail-silhouette-vector-25325401" title="special agent and soldier detail silhouette vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/54/01/special-agent-and-soldier-detail-silhouette-vector-25325401.jpg" title="special agent and soldier detail silhouette" alt="special agent and soldier detail silhouette vector image"></noscript></a></li>
+						<li data-id="26165382" data-title="superhero badge logo super hero shield man" data-src="https://cdn3.vectorstock.com/i/thumbs/53/82/superhero-badge-logo-super-hero-shield-man-vector-26165382.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/superhero-badge-logo-super-hero-shield-man-vector-26165382" title="superhero badge logo super hero shield man vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/53/82/superhero-badge-logo-super-hero-shield-man-vector-26165382.jpg" title="superhero badge logo super hero shield man" alt="superhero badge logo super hero shield man vector image"></noscript></a></li>
+						<li data-id="26898594" data-title="superhero shield shape on blue background" data-src="https://cdn5.vectorstock.com/i/thumbs/85/94/superhero-shield-shape-on-blue-background-vector-26898594.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/superhero-shield-shape-on-blue-background-vector-26898594" title="superhero shield shape on blue background vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/85/94/superhero-shield-shape-on-blue-background-vector-26898594.jpg" title="superhero shield shape on blue background" alt="superhero shield shape on blue background vector image"></noscript></a></li>
+						<li data-id="21170433" data-title="bulldog cartoon mascot character animal cartoon" data-src="https://cdn4.vectorstock.com/i/thumbs/04/33/bulldog-cartoon-mascot-character-animal-cartoon-vector-21170433.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/bulldog-cartoon-mascot-character-animal-cartoon-vector-21170433" title="bulldog cartoon mascot character animal cartoon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/04/33/bulldog-cartoon-mascot-character-animal-cartoon-vector-21170433.jpg" title="bulldog cartoon mascot character animal cartoon" alt="bulldog cartoon mascot character animal cartoon vector image"></noscript></a></li>
+						<li data-id="22990711" data-title="fist hand" data-src="https://cdn2.vectorstock.com/i/thumbs/07/11/fist-hand-vector-22990711.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/fist-hand-vector-22990711" title="fist hand vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/07/11/fist-hand-vector-22990711.jpg" title="fist hand" alt="fist hand vector image"></noscript></a></li>
+						<li data-id="23989247" data-title="muay thai fighting thai boxing jumping to attack" data-src="https://cdn3.vectorstock.com/i/thumbs/92/47/muay-thai-fighting-thai-boxing-jumping-to-attack-vector-23989247.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/muay-thai-fighting-thai-boxing-jumping-to-attack-vector-23989247" title="muay thai fighting thai boxing jumping to attack vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/92/47/muay-thai-fighting-thai-boxing-jumping-to-attack-vector-23989247.jpg" title="muay thai fighting thai boxing jumping to attack" alt="muay thai fighting thai boxing jumping to attack vector image"></noscript></a></li>
+						<li data-id="25019399" data-title="safety work icon from lines and particle style" data-src="https://cdn5.vectorstock.com/i/thumbs/93/99/safety-work-icon-from-lines-and-particle-style-vector-25019399.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/safety-work-icon-from-lines-and-particle-style-vector-25019399" title="safety work icon from lines and particle style vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/93/99/safety-work-icon-from-lines-and-particle-style-vector-25019399.jpg" title="safety work icon from lines and particle style" alt="safety work icon from lines and particle style vector image"></noscript></a></li>
+						<li data-id="24806271" data-title="iron knight armor" data-src="https://cdn2.vectorstock.com/i/thumbs/62/71/iron-knight-armor-vector-24806271.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/iron-knight-armor-vector-24806271" title="iron knight armor vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/62/71/iron-knight-armor-vector-24806271.jpg" title="iron knight armor" alt="iron knight armor vector image"></noscript></a></li>
+						<li data-id="24329654" data-title="superhero logo template" data-src="https://cdn5.vectorstock.com/i/thumbs/96/54/superhero-logo-template-vector-24329654.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/superhero-logo-template-vector-24329654" title="superhero logo template vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/96/54/superhero-logo-template-vector-24329654.jpg" title="superhero logo template" alt="superhero logo template vector image"></noscript></a></li>
+						<li data-id="24001790" data-title="set of emblems of a knight waving a sword paladin" data-src="https://cdn1.vectorstock.com/i/thumbs/17/90/set-of-emblems-of-a-knight-waving-a-sword-paladin-vector-24001790.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-of-emblems-of-a-knight-waving-a-sword-paladin-vector-24001790" title="set of emblems of a knight waving a sword paladin vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/17/90/set-of-emblems-of-a-knight-waving-a-sword-paladin-vector-24001790.jpg" title="set of emblems of a knight waving a sword paladin" alt="set of emblems of a knight waving a sword paladin vector image"></noscript></a></li>
+						<li data-id="40324885" data-title="fire man esport mascot logo design" data-src="https://cdn1.vectorstock.com/i/thumbs/48/85/fire-man-esport-mascot-logo-design-vector-40324885.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/fire-man-esport-mascot-logo-design-vector-40324885" title="fire man esport mascot logo design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/48/85/fire-man-esport-mascot-logo-design-vector-40324885.jpg" title="fire man esport mascot logo design" alt="fire man esport mascot logo design vector image"></noscript></a></li>
+						<li data-id="31259657" data-title="tuxedo shield logo design" data-src="https://cdn3.vectorstock.com/i/thumbs/96/57/tuxedo-shield-logo-design-vector-31259657.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/tuxedo-shield-logo-design-vector-31259657" title="tuxedo shield logo design vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/96/57/tuxedo-shield-logo-design-vector-31259657.jpg" title="tuxedo shield logo design" alt="tuxedo shield logo design vector image"></noscript></a></li>
+						<li data-id="31216213" data-title="set basketball related icons contains" data-src="https://cdn4.vectorstock.com/i/thumbs/62/13/set-basketball-related-icons-contains-vector-31216213.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-basketball-related-icons-contains-vector-31216213" title="set basketball related icons contains vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/62/13/set-basketball-related-icons-contains-vector-31216213.jpg" title="set basketball related icons contains" alt="set basketball related icons contains vector image"></noscript></a></li>
+						<li data-id="15141978" data-title="police baton or nightstick rubber truncheon" data-src="https://cdn4.vectorstock.com/i/thumbs/19/78/police-baton-or-nightstick-rubber-truncheon-vector-15141978.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/police-baton-or-nightstick-rubber-truncheon-vector-15141978" title="police baton or nightstick rubber truncheon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/19/78/police-baton-or-nightstick-rubber-truncheon-vector-15141978.jpg" title="police baton or nightstick rubber truncheon" alt="police baton or nightstick rubber truncheon vector image"></noscript></a></li>
+						<li data-id="39656636" data-title="human inside of immunity shiled and virus cells" data-src="https://cdn2.vectorstock.com/i/thumbs/66/36/human-inside-of-immunity-shiled-and-virus-cells-vector-39656636.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/human-inside-of-immunity-shiled-and-virus-cells-vector-39656636" title="human inside of immunity shiled and virus cells vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/66/36/human-inside-of-immunity-shiled-and-virus-cells-vector-39656636.jpg" title="human inside of immunity shiled and virus cells" alt="human inside of immunity shiled and virus cells vector image"></noscript></a></li>
+						<li data-id="39559114" data-title="spartan helmet in shield and cross sword logo" data-src="https://cdn5.vectorstock.com/i/thumbs/91/14/spartan-helmet-in-shield-and-cross-sword-logo-vector-39559114.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/spartan-helmet-in-shield-and-cross-sword-logo-vector-39559114" title="spartan helmet in shield and cross sword logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/91/14/spartan-helmet-in-shield-and-cross-sword-logo-vector-39559114.jpg" title="spartan helmet in shield and cross sword logo" alt="spartan helmet in shield and cross sword logo vector image"></noscript></a></li>
+						<li data-id="33856049" data-title="death police mascot logo design" data-src="https://cdn5.vectorstock.com/i/thumbs/60/49/death-police-mascot-logo-design-vector-33856049.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/death-police-mascot-logo-design-vector-33856049" title="death police mascot logo design vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/60/49/death-police-mascot-logo-design-vector-33856049.jpg" title="death police mascot logo design" alt="death police mascot logo design vector image"></noscript></a></li>
+						<li data-id="30613112" data-title="knight holds a shield logo design" data-src="https://cdn3.vectorstock.com/i/thumbs/31/12/knight-holds-a-shield-logo-design-vector-30613112.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/knight-holds-a-shield-logo-design-vector-30613112" title="knight holds a shield logo design vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/31/12/knight-holds-a-shield-logo-design-vector-30613112.jpg" title="knight holds a shield logo design" alt="knight holds a shield logo design vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-similar-to_25171011" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_andypp" rel="nofollow">andypp</a></strong></h6>
+
+			<div class="gallery large">
+				<ul>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/29/79/mt-shield-logo-vector-24712979.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/mt-shield-logo-vector-24712979" title="mt shield logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/29/79/mt-shield-logo-vector-24712979.jpg" title="mt shield logo" alt="mt shield logo vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/30/63/neptune-trident-cloud-logo-vector-24713063.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/neptune-trident-cloud-logo-vector-24713063" title="neptune trident cloud logo vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/30/63/neptune-trident-cloud-logo-vector-24713063.jpg" title="neptune trident cloud logo" alt="neptune trident cloud logo vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/69/14/shield-v-logo-vector-25716914.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/shield-v-logo-vector-25716914" title="shield v logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/69/14/shield-v-logo-vector-25716914.jpg" title="shield v logo" alt="shield v logo vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/51/23/rottweiler-police-vector-30365123.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/rottweiler-police-vector-30365123" title="rottweiler police vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/51/23/rottweiler-police-vector-30365123.jpg" title="rottweiler police" alt="rottweiler police vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/93/90/man-gun-gaming-logo-vector-24019390.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/man-gun-gaming-logo-vector-24019390" title="man gun gaming logo vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/93/90/man-gun-gaming-logo-vector-24019390.jpg" title="man gun gaming logo" alt="man gun gaming logo vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/00/17/dagger-mandagger-man-e-sports-vector-24030017.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/dagger-mandagger-man-e-sports-vector-24030017" title="dagger mandagger man e sports vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/00/17/dagger-mandagger-man-e-sports-vector-24030017.jpg" title="dagger mandagger man e sports" alt="dagger mandagger man e sports vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/25/30/man-city-retro-vector-24462530.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/man-city-retro-vector-24462530" title="man city retro vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/25/30/man-city-retro-vector-24462530.jpg" title="man city retro" alt="man city retro vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/94/03/skull-mafia-vector-24019403.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/skull-mafia-vector-24019403" title="skull mafia vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/94/03/skull-mafia-vector-24019403.jpg" title="skull mafia" alt="skull mafia vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/85/71/muay-thai-fighter-vector-24038571.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/muay-thai-fighter-vector-24038571" title="muay thai fighter vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/85/71/muay-thai-fighter-vector-24038571.jpg" title="muay thai fighter" alt="muay thai fighter vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/93/48/fighter-sword-fire-mascot-vector-24019348.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/fighter-sword-fire-mascot-vector-24019348" title="fighter sword fire mascot vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/93/48/fighter-sword-fire-mascot-vector-24019348.jpg" title="fighter sword fire mascot" alt="fighter sword fire mascot vector image"></noscript></a></li>
+				</ul>
+			</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="24037993" data-title="mafia" data-src="https://cdn4.vectorstock.com/i/thumbs/79/93/mafia-vector-24037993.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/mafia-vector-24037993" title="mafia vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/79/93/mafia-vector-24037993.jpg" title="mafia" alt="mafia vector image vector image"></noscript></a></li>
+						<li data-id="24038013" data-title="marksman" data-src="https://cdn4.vectorstock.com/i/thumbs/80/13/marksman-vector-24038013.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/marksman-vector-24038013" title="marksman vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/80/13/marksman-vector-24038013.jpg" title="marksman" alt="marksman vector image vector image"></noscript></a></li>
+						<li data-id="24366947" data-title="man king logo" data-src="https://cdn3.vectorstock.com/i/thumbs/69/47/man-king-logo-vector-24366947.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/man-king-logo-vector-24366947" title="man king logo vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/69/47/man-king-logo-vector-24366947.jpg" title="man king logo" alt="man king logo vector image vector image"></noscript></a></li>
+						<li data-id="25600857" data-title="sagittarius vintage" data-src="https://cdn3.vectorstock.com/i/thumbs/08/57/sagittarius-vintage-vector-25600857.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/sagittarius-vintage-vector-25600857" title="sagittarius vintage vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/08/57/sagittarius-vintage-vector-25600857.jpg" title="sagittarius vintage" alt="sagittarius vintage vector image vector image"></noscript></a></li>
+						<li data-id="24020235" data-title="beard gammers" data-src="https://cdn1.vectorstock.com/i/thumbs/02/35/beard-gammers-vector-24020235.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/beard-gammers-vector-24020235" title="beard gammers vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/02/35/beard-gammers-vector-24020235.jpg" title="beard gammers" alt="beard gammers vector image vector image"></noscript></a></li>
+						<li data-id="24291971" data-title="dream kids logo" data-src="https://cdn2.vectorstock.com/i/thumbs/19/71/dream-kids-logo-vector-24291971.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/dream-kids-logo-vector-24291971" title="dream kids logo vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/19/71/dream-kids-logo-vector-24291971.jpg" title="dream kids logo" alt="dream kids logo vector image vector image"></noscript></a></li>
+						<li data-id="25667274" data-title="reading beach house logo" data-src="https://cdn5.vectorstock.com/i/thumbs/72/74/reading-beach-house-logo-vector-25667274.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/reading-beach-house-logo-vector-25667274" title="reading beach house logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/72/74/reading-beach-house-logo-vector-25667274.jpg" title="reading beach house logo" alt="reading beach house logo vector image vector image"></noscript></a></li>
+						<li data-id="24349508" data-title="happy health logo" data-src="https://cdn4.vectorstock.com/i/thumbs/95/08/happy-health-logo-vector-24349508.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/happy-health-logo-vector-24349508" title="happy health logo vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/95/08/happy-health-logo-vector-24349508.jpg" title="happy health logo" alt="happy health logo vector image vector image"></noscript></a></li>
+						<li data-id="24038003" data-title="man beard monoline" data-src="https://cdn4.vectorstock.com/i/thumbs/80/03/man-beard-monoline-vector-24038003.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/man-beard-monoline-vector-24038003" title="man beard monoline vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/80/03/man-beard-monoline-vector-24038003.jpg" title="man beard monoline" alt="man beard monoline vector image vector image"></noscript></a></li>
+						<li data-id="24058477" data-title="man head speed" data-src="https://cdn3.vectorstock.com/i/thumbs/84/77/man-head-speed-vector-24058477.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/man-head-speed-vector-24058477" title="man head speed vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/84/77/man-head-speed-vector-24058477.jpg" title="man head speed" alt="man head speed vector image vector image"></noscript></a></li>
+						<li data-id="24366944" data-title="man deal logo for your company or brand" data-src="https://cdn5.vectorstock.com/i/thumbs/69/44/man-deal-logo-for-your-company-or-brand-vector-24366944.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/man-deal-logo-for-your-company-or-brand-vector-24366944" title="man deal logo for your company or brand vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/69/44/man-deal-logo-for-your-company-or-brand-vector-24366944.jpg" title="man deal logo for your company or brand" alt="man deal logo for your company or brand vector image vector image"></noscript></a></li>
+						<li data-id="24038008" data-title="man beard monoline" data-src="https://cdn4.vectorstock.com/i/thumbs/80/08/man-beard-monoline-vector-24038008.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/man-beard-monoline-vector-24038008" title="man beard monoline vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/80/08/man-beard-monoline-vector-24038008.jpg" title="man beard monoline" alt="man beard monoline vector image vector image"></noscript></a></li>
+						<li data-id="25171086" data-title="spartan logo" data-src="https://cdn2.vectorstock.com/i/thumbs/10/86/spartan-logo-vector-25171086.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/spartan-logo-vector-25171086" title="spartan logo vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/10/86/spartan-logo-vector-25171086.jpg" title="spartan logo" alt="spartan logo vector image vector image"></noscript></a></li>
+						<li data-id="24038006" data-title="man beard monoline" data-src="https://cdn2.vectorstock.com/i/thumbs/80/06/man-beard-monoline-vector-24038006.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/man-beard-monoline-vector-24038006" title="man beard monoline vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/80/06/man-beard-monoline-vector-24038006.jpg" title="man beard monoline" alt="man beard monoline vector image vector image"></noscript></a></li>
+						<li data-id="25600832" data-title="panda work cartoon" data-src="https://cdn3.vectorstock.com/i/thumbs/08/32/panda-work-cartoon-vector-25600832.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/panda-work-cartoon-vector-25600832" title="panda work cartoon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/08/32/panda-work-cartoon-vector-25600832.jpg" title="panda work cartoon" alt="panda work cartoon vector image vector image"></noscript></a></li>
+						<li data-id="24292166" data-title="cool man shield gaming logo" data-src="https://cdn2.vectorstock.com/i/thumbs/21/66/cool-man-shield-gaming-logo-vector-24292166.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cool-man-shield-gaming-logo-vector-24292166" title="cool man shield gaming logo vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/21/66/cool-man-shield-gaming-logo-vector-24292166.jpg" title="cool man shield gaming logo" alt="cool man shield gaming logo vector image vector image"></noscript></a></li>
+						<li data-id="24038148" data-title="cat merry christmas" data-src="https://cdn4.vectorstock.com/i/thumbs/81/48/cat-merry-christmas-vector-24038148.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cat-merry-christmas-vector-24038148" title="cat merry christmas vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/81/48/cat-merry-christmas-vector-24038148.jpg" title="cat merry christmas" alt="cat merry christmas vector image vector image"></noscript></a></li>
+						<li data-id="25717399" data-title="up house diamond logo" data-src="https://cdn5.vectorstock.com/i/thumbs/73/99/up-house-diamond-logo-vector-25717399.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/up-house-diamond-logo-vector-25717399" title="up house diamond logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/73/99/up-house-diamond-logo-vector-25717399.jpg" title="up house diamond logo" alt="up house diamond logo vector image vector image"></noscript></a></li>
+						<li data-id="24038177" data-title="mountain man badge" data-src="https://cdn3.vectorstock.com/i/thumbs/81/77/mountain-man-badge-vector-24038177.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/mountain-man-badge-vector-24038177" title="mountain man badge vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/81/77/mountain-man-badge-vector-24038177.jpg" title="mountain man badge" alt="mountain man badge vector image vector image"></noscript></a></li>
+						<li data-id="24058305" data-title="skull man barbershop" data-src="https://cdn1.vectorstock.com/i/thumbs/83/05/skull-man-barbershop-vector-24058305.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/skull-man-barbershop-vector-24058305" title="skull man barbershop vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/83/05/skull-man-barbershop-vector-24058305.jpg" title="skull man barbershop" alt="skull man barbershop vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_andypp" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/security-vectors">Security</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/logo-vectors">Logo</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/guard-vectors">Guard</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/man-vectors">Man</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/jobs-vectors">Jobs</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/icon-vectors">Icon</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/cop-vectors">Cop</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/military-vectors">Military</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/symbol-vectors">Symbol</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/uniform-vectors">Uniform</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/service-vectors">Service</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/policeman-vectors">Policeman</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/safety-vectors">Safety</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/police-vectors">Police</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/justice-vectors">Justice</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/black-vectors">Black</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/design-vectors">Design</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/officer-vectors">Officer</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/law-vectors">Law</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/employee-vectors">Employee</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/patrol-vectors">Patrol</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/vector-vectors">Vector</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/hat-vectors">Hat</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/background-vectors">Background</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/person-vectors">Person</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/light-vectors">Light</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/people-vectors">People</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/bright-vectors">Bright</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/crime-vectors">Crime</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/flat-vectors">Flat</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/abstract-vectors">Abstract</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/element-vectors">Element</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/cap-vectors">Cap</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/character-vectors">Character</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/decoration-vectors">Decoration</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/creative-vectors">Creative</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/isolated-vectors">Isolated</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/concept-vectors">Concept</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/emergency-vectors">Emergency</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/graphic-vectors">Graphic</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/illustration-vectors">Illustration</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/art-vectors">Art</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/white-vectors">White</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/traffic-vectors">Traffic</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/sign-vectors">Sign</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/color-vectors">Color</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/web-vectors">Web</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/male-vectors">Male</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/protection-vectors">Protection</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/sheriff-vectors">Sheriff</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/pictograph-vectors">Pictograph</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/" title="Home">Home</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.vectorstock.com/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="https://www.vectorstock.com/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="https://www.vectorstock.com/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+				<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="https://www.vectorstock.com/signup" title="Join Now">Join Now</a></li>
+						<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="https://www.vectorstock.com/?signup=1&amp;contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="https://www.vectorstock.com/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="https://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="https://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				© 2022. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" nonce="r6+KC6EirOPdFvcIP7JAoMuCuiKnJi50tUqWAuV/bvY=">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":54,"atts":"SRoHQ14YGEo=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script>
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
